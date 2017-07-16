@@ -1,26 +1,28 @@
 <template>
     <div>
       <text-header></text-header>
-      <swiper id="banner" ref="mySwiper">
-        <swiper-slide class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7" style="width: 400px;"><a><img src="http://i.lifevccdn.com/upload/IndexBanner/dd0e77b30b7a4457ad4bff10a5ef028e_d1242x0.jpg" style="width: 100%;">
-        </a></swiper-slide>
-        <swiper-slide class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" style="width: 400px;"><a data-v-60df7298=""><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg" style="width: 100%;"></a>
+      <div class="banner-content">
+      <swiper id="first-page-banner" ref="mySwiper">
+        <swiper-slide class="swiper-slide-first swiper-slide-duplicate" data-swiper-slide-index="7" style="width: 400px;">
+          <router-link to="/Goods"><img src="http://i.lifevccdn.com/upload/IndexBanner/dd0e77b30b7a4457ad4bff10a5ef028e_d1242x0.jpg" style="width: 100%;">
+        </router-link></swiper-slide>
+        <swiper-slide class="swiper-slide-first swiper-slide-prev" data-swiper-slide-index="0" style="width: 400px;"><router-link to="/Goods"><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg" style="width: 100%;"></router-link>
         </swiper-slide>
-        <swiper-slide  class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" style="width: 400px;"><a data-v-60df7298=""><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/e234e5b64ab1456c9345dc8a4d604fb2_d1242x0.jpg" style="width: 100%;"></a>
+        <swiper-slide  class="swiper-slide-first swiper-slide-active" data-swiper-slide-index="1" style="width: 400px;"><router-link to="/Goods"><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/e234e5b64ab1456c9345dc8a4d604fb2_d1242x0.jpg" style="width: 100%;"></router-link>
         </swiper-slide>
-        <swiper-slide class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" style="width: 400px;"><a data-v-60df7298=""><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/924590309cb749fabf810a832a402984_d1242x0.jpg" style="width: 100%;"></a>
+        <swiper-slide class="swiper-slide-first swiper-slide-next" data-swiper-slide-index="2" style="width: 400px;"><router-link to="/Goods"><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/924590309cb749fabf810a832a402984_d1242x0.jpg" style="width: 100%;"></router-link>
         </swiper-slide>
-        <swiper-slide class="swiper-slide" data-swiper-slide-index="3" style="width: 400px;"><a data-v-60df7298=""><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/e0f30fd934134d28ad9c5c45f96c7045_d1242x0.jpg" style="width: 100%;"></a>
+        <swiper-slide class="swiper-slide-first" data-swiper-slide-index="3" style="width: 400px;"><router-link to="/Goods"><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/e0f30fd934134d28ad9c5c45f96c7045_d1242x0.jpg" style="width: 100%;"></router-link>
         </swiper-slide>
-        <swiper-slide class="swiper-slide" data-swiper-slide-index="4" style="width: 400px;"><a data-v-60df7298=""><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/a33813da3f924276a6cff34312ad587d_d1242x0.jpg" style="width: 100%;"></a>
+        <swiper-slide class="swiper-slide-first" data-swiper-slide-index="4" style="width: 400px;"><router-link to="/Goods"><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/a33813da3f924276a6cff34312ad587d_d1242x0.jpg" style="width: 100%;"></router-link>
         </swiper-slide>
-        <swiper-slide class="swiper-slide" data-swiper-slide-index="5" style="width: 400px;"><a data-v-60df7298=""><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/85f5aea681ab4e98b72f1d59b9a5b073_d1242x0.jpg" style="width: 100%;"></a>
+        <swiper-slide class="swiper-slide-first" data-swiper-slide-index="5" style="width: 400px;"><router-link to="/Goods"><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/85f5aea681ab4e98b72f1d59b9a5b073_d1242x0.jpg" style="width: 100%;"></router-link>
         </swiper-slide>
-        <swiper-slide  class="swiper-slide" data-swiper-slide-index="6" style="width: 400px;"><a data-v-60df7298=""><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/b074f4f091d44569acdd9d001cd4e0b5_d1242x0.jpg" style="width: 100%;"></a>
+        <swiper-slide  class="swiper-slide-first" data-swiper-slide-index="6" style="width: 400px;"><router-link to="/Goods"><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/b074f4f091d44569acdd9d001cd4e0b5_d1242x0.jpg" style="width: 100%;"></router-link>
         </swiper-slide>
-        <swiper-slide class="swiper-slide" data-swiper-slide-index="7" style="width: 400px;"><a data-v-60df7298=""><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/dd0e77b30b7a4457ad4bff10a5ef028e_d1242x0.jpg" style="width: 100%;"></a>
+        <swiper-slide class="swiper-slide-first" data-swiper-slide-index="7" style="width: 400px;"><router-link to="/Goods"><img data-v-60df7298="" src="http://i.lifevccdn.com/upload/IndexBanner/dd0e77b30b7a4457ad4bff10a5ef028e_d1242x0.jpg" style="width: 100%;"></router-link>
         </swiper-slide>
-        <swiper-slide class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 400px;"><a><img src="http://i.lifevccdn.com/upload/IndexBanner/09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg" style="width: 100%;"></a>
+        <swiper-slide class="swiper-slide-first" data-swiper-slide-index="0" style="width: 400px;"><router-link to="/Goods"><img src="http://i.lifevccdn.com/upload/IndexBanner/09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg" style="width: 100%;"></router-link>
         </swiper-slide>
         <div class="swiper-pagination swiper-pagination-bullets">
           <span class="swiper-pagination-bullet" slot="scrollbar"></span>
@@ -110,6 +112,7 @@
       <div class="item-combo"><div data-v-46782024="" data-v-60df7298="" title="组合图活动"><div data-v-46782024="" class="combo-title"></div> <div data-v-46782024="" class="img-wrap" style="height: 735px;">
         <img data-v-46782024="" usemap="#planetmap9" src="http://i.lifevccdn.com/upload/combinationchart/6d9ec06b24ef43a089ec173e9303fa09_d1242x0.jpg" lazy="loaded" style="width: 100%; height: 735px;"> <map data-v-46782024="" name="planetmap9" id="planetmap9"><area data-v-46782024="" shape="rect" coords="0,0,400,161"><area data-v-46782024="" shape="rect" coords="12,169,196,352"><area data-v-46782024="" shape="rect" coords="200,169,396,360"><area data-v-46782024="" shape="rect" coords="12,352,192,536"><area data-v-46782024="" shape="rect" coords="196,352,396,536"><area data-v-46782024="" shape="rect" coords="8,536,188,720"><area data-v-46782024="" shape="rect" coords="196,536,392,720"></map></div></div></div>
     </div>
+    </div>
 </template>
 
 <script>
@@ -122,21 +125,23 @@
 </script>
 
 <style>
-  #banner{
-
-    margin-left: auto;
-    margin-right: auto;
+  #first-page-banner{
+    position : relative;
+    /*margin-left: auto;*/
+    margin-top: 4rem;
+    /*margin-right: auto;*/
     overflow: hidden;
     width : 100%;
     height : 10rem;
   }
-  .swiper-slide{
+  .swiper-slide-first{
+
     width : 10%;
-    height :10rem;
+    height :10.5rem;
     float : left;
   }
-  .swiper-slide img{
-    width : 10%;
+  .swiper-slide-first img{
+    width : 100%;
     height : 100%;
   }
   .item-combo{
@@ -150,6 +155,8 @@
   }
   .swiper-pagination-bullets {
     position: absolute;
+    bottom : 10px;
+    left : 50px;
     text-align: center;
     -webkit-transition: .3s;
     transition: .3s;
