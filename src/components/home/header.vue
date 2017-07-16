@@ -5,7 +5,7 @@
         <img src="./img2.png"/>
         <span class="icon-list2"></span>
       </div>
-      <div id="nav">
+      <div id="nav" >
         <ul id="navList">
           <li>
             <router-link to="/FirstPage">首页</router-link>
@@ -39,7 +39,14 @@
 </template>
 
 <script>
-    export default {}
+  import BScroll from 'better-scroll'
+  let scroll = new BScroll(document.getElementById('nav'),{
+    startY : 0,
+    momentum: true,
+    bounce: true,
+    scrollY : true
+
+  })
 </script>
 
 <style>
